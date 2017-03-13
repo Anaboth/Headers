@@ -16,9 +16,8 @@ int binarysearch(int vet[], int n, int search){
 	while (first <= last) {
 		if (vet[middle] < search)
 			first = middle + 1;    
-		else if (vet[middle] == search) {
+		else if (vet[middle] == search)
 			return middle + 1;
-		}
 		else
 			last = middle - 1;
  
